@@ -1,16 +1,27 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
+#include<math.h>
 
 
+int PatratPerfect(int valoare)
+{
+	int v1;
+	float v2;
+	v2 = sqrt((double)valoare);
+	v1 = v2;
+	if (v1 == v2)
+		return 1;
+	else
+		return 0;
+}
 
 int main()
 {
 	int n;
 	int arr[20];
-	int i,j;
+	int i;
 	int opt;
-	int patrat;
 	int counter=0;
 	do
 	{
@@ -41,14 +52,7 @@ int main()
 		case 3:
 			for (i = 0; i < n; i++)
 			{
-				patrat = arr[i] * arr[i];
-				for (j = 0; j < n; j++)
-				{
-					if (arr[j] == patrat)
-					{
-						counter = counter + 1;
-					}
-				}
+				counter = counter + PatratPerfect(arr[i]);
 			}
 			printf("Numarul de patrate perfecte este:%d\n", counter);
 			counter = 0;

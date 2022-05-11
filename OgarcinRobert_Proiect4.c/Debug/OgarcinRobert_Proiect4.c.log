@@ -1,2 +1,4 @@
 ﻿  Ogarcin_Robert_Proiect4.c
+c:\users\robi\source\repos\ogarcinrobert_proiect4.c\ogarcinrobert_proiect4.c\ogarcin_robert_proiect4.c(11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\robi\source\repos\ogarcinrobert_proiect4.c\ogarcinrobert_proiect4.c\ogarcin_robert_proiect4.c(12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   OgarcinRobert_Proiect4.c.vcxproj -> C:\Users\Robi\source\repos\OgarcinRobert_Proiect4.c\Debug\OgarcinRobert_Proiect4.exe
